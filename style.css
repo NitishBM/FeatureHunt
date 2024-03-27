@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;;
 }
 
 .row {
@@ -27,4 +28,28 @@
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
