@@ -27,7 +27,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
 }
 
 .card-title {
@@ -52,6 +52,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+    transition: 0.1s transform linear;
 }
 
 @media only screen and (max-width: 600px) {
